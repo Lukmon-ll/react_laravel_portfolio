@@ -1,22 +1,31 @@
 /* apply styles to every other div */
 #project-content {
   text-align: center;
+  
 }
 
+#project_head {
+  background-color: #FCF6F5FF;
+  padding: 10px;
+}
 #project-heading {
   text-align: left;
 }
 
 .Iproject:nth-child(even) {
-  background-color: #EEA47FFF;
+  background-color: #FFBE7BFF;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 /* apply styles to odd-numbered divs */
 .Iproject:nth-child(odd) {
-  background-color: #FCF6F5FF;
+  background-color: #EED971FF;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
   
 }

@@ -33,7 +33,7 @@ export default function Project({titles}) {
               <h3>{project.title}</h3>
             </a>
             <div>{project.content}</div>
-            <div>{project.created_at}</div>
+            
           </div>
         ))}
       </div>
