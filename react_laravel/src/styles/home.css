@@ -1,0 +1,14 @@
+.container1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 350px; 
+  height: auto;
+}
+
+.line {
+  flex-grow: 1;
+  flex-shrink: 1;
+}

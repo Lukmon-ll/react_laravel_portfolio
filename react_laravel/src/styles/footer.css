@@ -1,4 +1,18 @@
 #footer-content {
-    background-color: #FCF6F5FF;
-    padding: 10px;
+   /* background-color: #FCF6F5FF;*/
+    padding: 30px;
+    text-align: right;
+    
+}
+
+.container {
+    display: flex;
+}
+
+.line {
+    flex: 1;
+}
+
+.right {
+    justify-content: flex-end;
 }

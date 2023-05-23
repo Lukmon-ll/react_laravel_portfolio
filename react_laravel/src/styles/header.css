@@ -1,7 +1,7 @@
 header {
   display: flex;
   align-items: center;
-  background-color: #FCF6F5FF;
+  /*background-color: #FCF6F5FF;*/
   
 }
 
@@ -12,6 +12,6 @@ header {
 
 nav {
   margin-left: auto;
-  background-color: #FCF6F5FF;
+  /*background-color: #FCF6F5FF;*/
   padding: 10px;
 }
