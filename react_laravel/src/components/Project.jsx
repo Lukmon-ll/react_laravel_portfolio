@@ -28,7 +28,7 @@ export default function Project({titles}) {
       <h2 id="project_head">
         
         <a href="https://webprojectslukmon.ca/api/projects">Projects:</a> </h2>
-        <p>Welcome to my portfolio, where I showcase some of my favorite projects I've worked on. As a web developer, I've had the privilege of working with clients from various industries and creating projects that align with their unique needs and goals. From branding and graphic design to web development and marketing campaigns, each project represents a unique challenge and opportunity for creativity. Browse through the list below to get a sense of my skills and expertise, and feel free to click on each project to learn more.</p>
+        <p>Welcome to my portfolio, where I showcase some of my favorite projects I've worked on. As a web developer, I've had the privilege of working with clients from various industries and creating projects that align with their unique needs and goals. Each project represents a unique challenge and opportunity for creativity. Kindly browse through the list below to get a sense of my skills and expertise, and feel free to click on each project to learn more.</p>
         </div>
         
       <div id="projects">

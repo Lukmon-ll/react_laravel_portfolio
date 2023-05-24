@@ -5,6 +5,7 @@ import html from "../assets/html.svg";
 import css from "../assets/css.svg";
 import javascript from "../assets/javascript.svg";
 import nodejs from "../assets/nodejs.svg";
+import php from "../assets/php.svg";
 
 export default function Home() {
   return(
@@ -22,6 +23,7 @@ Throughout my career, I've developed a unique set of skills in team collaboratio
 <img src={css} alt="" />
 <img src={javascript} alt="" />
 <img src={nodejs} alt="" />
+<img src={php} alt="" />
 </div>
       <div className="line1">
       <img src={image1} alt="Author's image" />
