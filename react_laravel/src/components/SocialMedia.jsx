@@ -24,8 +24,6 @@ export default function SocialMedia() {
       </a></li>
   </ul>
 
-      
-      
 </div>
 
   );

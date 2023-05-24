@@ -38,11 +38,12 @@ export default function Project({titles}) {
               <h3>{project.title}</h3>
             </a>
             <div>{project.content}</div>
-            <div className="spacer"></div>
+            
             
           </div>
         ))}
       </div>
+      <div className="spacer"></div>
       <div className="project-images">
         <img src={image2} alt="Image to open trivia questions open API" />
         <img src={image3} alt="" />

@@ -21,7 +21,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/education" element={<Education />} />
       </Routes>
-      
+      <div className="spacer"></div>
       <Footer />
       
       </BrowserRouter>

@@ -1,6 +1,10 @@
 import Project from "../components/Project";
 import "../styles/home.css"
 import image1 from "../assets/myImage1.jpg";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import javascript from "../assets/javascript.svg";
+import nodejs from "../assets/nodejs.svg";
 
 export default function Home() {
   return(
@@ -14,16 +18,16 @@ export default function Home() {
 <p>
 Throughout my career, I've developed a unique set of skills in team collaborations, and I'm always eager to take on new challenges and expand my knowledge. In my spare time, you can find me watching TV, playing table tennis or exploring new places and cultures.</p>
 
-<p>
-On this website, you'll find a collection of my work, ranging from content management systems to web appllications, as well as some of my thoughts and insights on software development techniques. Thank you for taking the time to visit, and I hope you enjoy browsing my portfolio!</p>
-<p>ipson Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repellendus maxime voluptates delectus accusamus nulla assumenda rerum nostrum laudantium adipisci officia distinctio, itaque ut reiciendis quos quia enim eos? Recusandae?</p>
-<p>ipson Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repellendus maxime voluptates delectus accusamus nulla assumenda rerum nostrum laudantium adipisci officia distinctio, itaque ut reiciendis quos quia enim eos? Recusandae?</p>
-<p>ipson Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repellendus maxime voluptates delectus accusamus nulla assumenda rerum nostrum laudantium adipisci officia distinctio, itaque ut reiciendis quos quia enim eos? Recusandae?</p>
+<img src={html} alt="" />
+<img src={css} alt="" />
+<img src={javascript} alt="" />
+<img src={nodejs} alt="" />
 </div>
       <div className="line1">
       <img src={image1} alt="Author's image" />
       </div>
       </div>
+      <div className="spacer"></div>
       <Project />
 
     </main>

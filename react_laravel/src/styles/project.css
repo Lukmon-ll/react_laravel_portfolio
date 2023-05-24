@@ -24,6 +24,7 @@
 /* apply styles to odd-numbered divs */
 .Iproject:nth-child(odd) {
   background-color: #FCF6F5;
+  
   padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 20%;
@@ -34,16 +35,18 @@
 .project-images {
   border: lightgray 1px solid;
   background-color: #FCF6F5;
-  padding: 10px;
+  padding: 30px;
 }
 
 img {
   /*border: lightgray 1px solid;*/
   margin: 10px;
+  width: 300px;
+  height: auto;
   
 }
 
 .spacer {
-  height: 20px; /* adds 20 pixels of vertical space */
+  height: 50px; /* adds 20 pixels of vertical space */
 }
 

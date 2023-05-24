@@ -14,7 +14,7 @@ export default function Footer() {
     <footer id="footer-content">
       <div className="container">
       <div className="line">
-      &copy; Copyright Lukmon Lasisi, 2023.
+      Lukmon Lasisi &copy; Copyright, 2023.
       </div>
       <div className="line right" >
       <SocialMedia/>
