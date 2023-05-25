@@ -6,6 +6,9 @@ import css from "../assets/css.svg";
 import javascript from "../assets/javascript.svg";
 import nodejs from "../assets/nodejs.svg";
 import php from "../assets/php.svg";
+import csharp from "../assets/csharp.svg";
+import laravel from "../assets/laravel.svg";
+import aspnet from "../assets/aspnet.svg";
 
 export default function Home() {
   return(
@@ -19,16 +22,49 @@ export default function Home() {
 <p>
 Throughout my career, I've developed a unique set of skills in team collaborations, and I'm always eager to take on new challenges and expand my knowledge. In my spare time, you can find me watching TV, playing table tennis or exploring new places and cultures.</p>
 
-<img src={html} alt="" />
-<img src={css} alt="" />
-<img src={javascript} alt="" />
-<img src={nodejs} alt="" />
-<img src={php} alt="" />
 </div>
       <div className="line1">
+        <figure>
       <img src={image1} alt="Author's image" />
+      <figcaption><a href="https://github.com/Lukmon-ll">Lukmon Lasisi</a> </figcaption>
+      </figure>
       </div>
       </div>
+      <div className="skills-container">
+      <figure className="skill">
+<img src={html} alt="" />
+<figcaption>HTML</figcaption>
+</figure>
+<figure className="skill">
+<img src={css} alt="" />
+<figcaption>CSS</figcaption>
+</figure>
+<figure className="skill">
+<img src={javascript} alt="" />
+<figcaption>JavaScript</figcaption>
+</figure>
+<figure className="skill">
+<img src={nodejs} alt="" />
+<figcaption>NodeJS</figcaption>
+</figure>
+<figure className="skill">
+<img src={php} alt="" />
+<figcaption>PHP</figcaption>
+</figure>
+<figure className="skill">
+<img src={aspnet} alt="" />
+<figcaption>ASP.NET</figcaption>
+</figure>
+<figure className="skill">
+<img src={laravel} alt="" />
+<figcaption>Laravel</figcaption>
+</figure>
+<figure className="skill">
+<img src={csharp} alt="" />
+<figcaption>cSharp</figcaption>
+</figure>
+</div>
+
       <div className="spacer"></div>
       <Project />
 

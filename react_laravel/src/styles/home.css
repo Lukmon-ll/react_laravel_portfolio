@@ -1,6 +1,12 @@
+.home-main-content {
+  width: 500px;
+}
+
 .container1 {
   display: flex;
   justify-content: space-evenly;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 img {
@@ -15,4 +21,13 @@ img {
 
 .spacer {
   height: 50px;
+}
+
+.skills-container {
+  display: flex;
+}
+
+.skills {
+  display: inline-block;
+  margin-right: 5px; 
 }
