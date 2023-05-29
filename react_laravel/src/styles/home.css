@@ -2,6 +2,13 @@
   width: 500px;
 }
 
+#home-summary:hover {
+  border: 1px solid grey;
+  color: whitesmoke;
+  background-color: #808080;
+  padding: 10px;
+}
+
 .container1 {
   display: flex;
   justify-content: space-evenly;
@@ -9,9 +16,20 @@
   margin-right: 20%;
 }
 
-img {
-  width: 250px; 
+.line1 img {
+  width: 230px;
   height: auto;
+  
+}
+
+.line1 img:hover {
+  border: 2px solid #808080;
+}
+
+.skills-container img {
+  width: 30px; 
+  height: auto;
+  
 }
 
 .line {

@@ -15,6 +15,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Header />
+      <hr />
+      <div className="spacer-heading"></div>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

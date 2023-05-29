@@ -8,7 +8,7 @@ export default function Header() {
 
     <header>
       <h1 className="header-main">
-        <Link to="/">Lukmon's Portfolio Website</Link></h1>
+        <Link to="/">Lukmon's Portfolio</Link></h1>
         <Nav />
         <SocialMedia />
     </header>
