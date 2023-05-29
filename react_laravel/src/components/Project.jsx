@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import '../styles/project.css'
+import Type from "./Type";
 import image2 from "../assets/triviaQ.png"
 import image3 from "../assets/OnatrioParks.png"
 import image4 from "../assets/e_commerce.png"
@@ -37,17 +38,26 @@ export default function Project({titles}) {
             <a id="title" href={project.url} target="_blank">
               <h3>{project.title}</h3>
             </a>
+            <div>{project.type.title}</div>
+           
+              <img src={project.image} alt="" />
+            
             <div>{project.content}</div>
-            
-            
           </div>
         ))}
       </div>
+      <Type />
       <div className="spacer"></div>
       <div className="project-images">
+        <div className="image-left">
         <img src={image2} alt="Image to open trivia questions open API" />
+        </div>
+        <div className="image-right">
         <img src={image3} alt="" />
+        </div>
+        <div className="image-left">
         <img src={image4} alt="" />
+        </div>
         
       </div>
     </div>

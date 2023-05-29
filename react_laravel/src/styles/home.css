@@ -38,14 +38,17 @@
 }
 
 .spacer {
-  height: 50px;
+  height: 40px;
 }
 
 .skills-container {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .skills {
-  display: inline-block;
-  margin-right: 5px; 
+  /*display: inline-block;*/
+  flex-grow: 1;
+  flex-shrink: 1;
+  
 }

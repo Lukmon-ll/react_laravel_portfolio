@@ -1,8 +1,23 @@
+.App {
+  font-family: sans-serif;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 .spacer-heading {
   height: 20px; /* adds 20 pixels of vertical space */
 }
 
-/*.App {
-  background-color: #F5F5F5;
-}*/
+NavLink Link {
+  text-decoration: none;
+}
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  
+}

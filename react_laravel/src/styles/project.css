@@ -10,7 +10,7 @@
 #project_head {
  /* background-color: #FCF6F5FF;*/
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -66,20 +66,49 @@
 
 .project-images {
   border: lightgray 1px solid;
-  background-color: #FCF6F5;
-  padding: 30px;
+  background-color: #CCCCCC;
+  
 }
 
 .project-images img {
   /*border: lightgray 1px solid;*/
   /*margin: ;*/
-  width: 300px;
+  width: 400px;
   margin: 20px;
   height: auto;
   
 }
 
+.project-images img:hover {
+  /*border: lightgray 1px solid;*/
+  /*margin: ;*/
+
+  width: 600px;
+  margin: 20px;
+  height: auto;
+  
+  
+}
+
 .spacer {
   height: 30px; /* adds 20 pixels of vertical space */
+}
+
+.image-left {
+  text-align: left;
+}
+
+.image-right {
+  text-align: right;
+}
+
+
+/*image styling designs*/
+.image-left:hover  {
+  background-color: #808080;
+}
+
+.image-right:hover {
+  background-color: #808080;
 }
 

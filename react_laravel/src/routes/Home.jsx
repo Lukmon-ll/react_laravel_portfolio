@@ -11,6 +11,7 @@ import csharp from "../assets/csharp.svg";
 import aspnet from "../assets/aspnet.svg";
 import mysql from "../assets/mysql.svg";
 import mongodb from "../assets/mongodb.svg";
+import pug from "../assets/pug.png";
 
 export default function Home() {
   return(
@@ -23,7 +24,7 @@ export default function Home() {
       <p>My name is Lukmon Lasisi, and I'm a web developer and an aspiring software developer with a passion for coding. With years of experience in this field, I've had the opportunity to work on a variety of exciting projects and collaborate with talented individuals from around the world.</p>
 
 <p>
-Throughout my career, I've developed a unique set of skills in team collaborations, and I'm always eager to take on new challenges and expand my knowledge. In my spare time, you can find me watching TV, playing table tennis or exploring new places and cultures.</p>
+Throughout my career, I've developed a unique set of skills in team collaborations, and I'm always eager to take on new challenges and expand my knowledge. You can find list of my tech stack below</p>
 </div>
 </div>
       <div className="line1">
@@ -35,6 +36,38 @@ Throughout my career, I've developed a unique set of skills in team collaboratio
       </div>
       <div className="skills-container">
       <figure className="skill">
+<img src={mysql} alt="" />
+<figcaption>MySQL Database</figcaption>
+</figure>
+<figure className="skill">
+<img src={mongodb} alt="" />
+<figcaption>MongoDB</figcaption>
+</figure>
+<figure className="skill">
+<img src={javascript} alt="" />
+<figcaption>JavaScript</figcaption>
+</figure>
+<figure className="skill">
+<img src={csharp} alt="" />
+<figcaption>cSharp</figcaption>
+</figure>
+<figure className="skill">
+<img src={php} alt="" />
+<figcaption>PHP</figcaption>
+</figure>
+<figure className="skill">
+<img src={nodejs} alt="" />
+<figcaption>NodeJS</figcaption>
+</figure>
+<figure className="skill">
+<img src={pug} alt="" />
+<figcaption>PUG</figcaption>
+</figure>
+<figure className="skill">
+<img src={aspnet} alt="" />
+<figcaption>ASP.NET</figcaption>
+</figure>
+      <figure className="skill">
 <img src={html} alt="" />
 <figcaption>HTML</figcaption>
 </figure>
@@ -42,38 +75,17 @@ Throughout my career, I've developed a unique set of skills in team collaboratio
 <img src={css} alt="" />
 <figcaption>CSS</figcaption>
 </figure>
-<figure className="skill">
-<img src={javascript} alt="" />
-<figcaption>JavaScript</figcaption>
-</figure>
-<figure className="skill">
-<img src={nodejs} alt="" />
-<figcaption>NodeJS</figcaption>
-</figure>
-<figure className="skill">
-<img src={php} alt="" />
-<figcaption>PHP</figcaption>
-</figure>
-<figure className="skill">
-<img src={aspnet} alt="" />
-<figcaption>ASP.NET</figcaption>
-</figure>
+
+
+
+
 {/*<figure className="skill">
 <img src={laravel} alt="" />
 <figcaption>Laravel</figcaption>
   </figure>*/}
-<figure className="skill">
-<img src={csharp} alt="" />
-<figcaption>cSharp</figcaption>
-</figure>
-<figure className="skill">
-<img src={mongodb} alt="" />
-<figcaption>MongoDB</figcaption>
-</figure>
-<figure className="skill">
-<img src={mysql} alt="" />
-<figcaption>MySQL Database</figcaption>
-</figure>
+
+
+
 </div>
 
       <div className="spacer"></div>
