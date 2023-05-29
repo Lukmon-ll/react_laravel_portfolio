@@ -23,12 +23,24 @@
 }
 
 .line1 img:hover {
-  border: 2px solid #808080;
+  border: 2px solid #FF9933;
 }
 
 .skills-container img {
   width: 30px; 
   height: auto;
+  
+  
+}
+
+.skills-container img:hover {
+  width: 80px; 
+  height: auto;
+  
+}
+.skill:hover {
+  padding: 4px;
+  background-color: #FF9933;
   
 }
 

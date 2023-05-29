@@ -34,6 +34,7 @@ Throughout my career, I've developed a unique set of skills in team collaboratio
       </figure>
       </div>
       </div>
+      <div className="spacer"></div>
       <div className="skills-container">
       <figure className="skill">
 <img src={mysql} alt="" />
