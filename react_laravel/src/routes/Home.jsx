@@ -7,7 +7,7 @@ import javascript from "../assets/javascript.svg";
 import nodejs from "../assets/nodejs.svg";
 import php from "../assets/php.svg";
 import csharp from "../assets/csharp.svg";
-import laravel from "../assets/laravel.svg";
+/*import laravel from "../assets/laravel.svg";*/
 import aspnet from "../assets/aspnet.svg";
 import mysql from "../assets/mysql.svg";
 import mongodb from "../assets/mongodb.svg";
@@ -58,10 +58,10 @@ Throughout my career, I've developed a unique set of skills in team collaboratio
 <img src={aspnet} alt="" />
 <figcaption>ASP.NET</figcaption>
 </figure>
-<figure className="skill">
+{/*<figure className="skill">
 <img src={laravel} alt="" />
 <figcaption>Laravel</figcaption>
-</figure>
+  </figure>*/}
 <figure className="skill">
 <img src={csharp} alt="" />
 <figcaption>cSharp</figcaption>
