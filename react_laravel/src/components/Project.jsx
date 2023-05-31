@@ -5,6 +5,10 @@ import Type from "./Type";
 import image2 from "../assets/triviaQ.png"
 import image3 from "../assets/OnatrioParks.png"
 import image4 from "../assets/e_commerce.png"
+import image5 from "../assets/laravelcms.png"
+import image6 from "../assets/vanillaphpcms.png"
+import image7 from "../assets/vanillaphpportfolio.png"
+import image8 from "../assets/laravelportfolio.png"
 
 
 export default function Project({titles}) {
@@ -28,12 +32,13 @@ export default function Project({titles}) {
     <div id="project-content">
       <div className="PSocialMedia">
       <SocialMedia />
+      <br /><br />
       </div>
       <div className="project-heading">
         
-      <h2 id="project_head">
+     {/* <h2 id="project_head">
         
-        <a href="https://webprojectslukmon.ca/api/projects" target="_blank">Projects</a> </h2>
+  <a href="https://webprojectslukmon.ca/api/projects" target="_blank">Projects</a> </h2>*/}
         
         
         </div>
@@ -60,29 +65,42 @@ export default function Project({titles}) {
             <h2>{project.type.title}</h2>
             </div>
             </div>
-            <div className="project-title-container">
-              <div className="project-title-item">
+           {/*<div className="project-title-container">
+              <div className="project-title-item">*/}
             <h3>Project Content:</h3>
-            </div>
-            <div className="project-title-item">
+            {/*</div>
+            <div className="project-title-item">*/}
             <div>{project.content}</div>
-            </div>
-            </div>
+           {/*</div>
+            </div>*/}
           </div>
         ))}
       </div>
+      <div className="spacer"></div>
       <Type />
       <div className="spacer"></div>
       <div className="project-images">
-        <div className="image-left">
-        <img src={image2} alt="Image to open trivia questions open API" />
-        </div>
-        <div className="image-right">
-        <img src={image3} alt="" />
-        </div>
-        <div className="image-left">
-        <img src={image4} alt="" />
-        </div>
+      
+            <div>
+            <img src={image7} alt="" />
+        
+        <img src={image6} alt="" />
+            </div>
+            <div>
+            <img src={image8} alt="" />
+            <img src={image5} alt="" />
+            </div>
+            <div>
+            <img src={image2} alt="Image to open trivia questions open API" />
+            <img src={image3} alt="" />
+            </div>
+            <div>
+            <img src={image4} alt="" />
+            </div>
+
+
+        
+        
         
       </div>
     </div>

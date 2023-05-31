@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "../styles/type.css"
 
 
 
@@ -18,14 +19,14 @@ export default function Type() {
 
   }, [])
   return (
-    <div>
+    <div className="project-type">
 {types.map((type) => (
           <div key={type.id} className="Itype">
             
-              <h3>{type.title}</h3>
+              <h4>{type.title}</h4>
             
-            <div>{type.created_at}</div>
-            <div>{type.updated_at}</div>
+           {/*  <div>{type.created_at}</div>
+            <div>{type.updated_at}</div>*/}
             
             
           </div>

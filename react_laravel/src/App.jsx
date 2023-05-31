@@ -29,6 +29,7 @@ function App() {
         <Route path="/education" element={<Education />} />
       </Routes>
       <div className="spacer"></div>
+      <hr />
       <Footer />
       
       </BrowserRouter>

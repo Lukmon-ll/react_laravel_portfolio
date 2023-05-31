@@ -14,9 +14,9 @@ export default function Footer() {
     <footer id="footer-content">
       <div className="container">
       <div className="line">
-      Lukmon Lasisi &copy; Copyright, 2023.
+      2023 &copy; Copyright, Lukmon Lasisi
       </div>
-      <div className="line right" >
+      <div className="line" >
       <SocialMedia/>
       </div>
       </div>
