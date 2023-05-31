@@ -13,19 +13,21 @@
 
 .PSocialMedia {
   text-align: right;
+  margin: 5px;
+  
 }
 
 
 .Iproject:nth-child(even) {
   /*background-color: #FFFF;*/
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20%;
-  padding-right: 20%;
-  border: #808080 1px solid;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: #CCCCCC 1px solid;
   border-radius: 10px;
   
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   background-color: #CCCCCC;
   
   
@@ -33,15 +35,16 @@
 
 .Iproject:nth-child(even):hover {
   /*background-color: #FFFF;*/
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20%;
-  padding-right: 20%;
-  border: #FF9933 1px solid;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: #CCCCCC 1px solid;
   border-radius: 20px;
   
-  margin-bottom: 5px;
-  background-color: #FF9933;
+  margin-bottom: 10px;
+  background-color: #808080;
+  color: whitesmoke;
   
   /*color: whitesmoke;*/
   
@@ -50,18 +53,30 @@
 
 /* apply styles to odd-numbered divs */
 .Iproject:nth-child(odd) {
-  background-color: #808080;
+  background-color: #CCCCCC;
   
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20%;
-  padding-right: 20%;
-  border: #808080 1px solid;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: #CCCCCC 1px solid;
   border-radius: 10px;
   
-  margin-bottom: 5px;
-  color: whitesmoke;
+  margin-bottom: 10px;
   
+}
+
+.Iproject:nth-child(odd):hover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: #CCCCCC 1px solid;
+  border-radius: 20px;
+  
+  margin-bottom: 10px;
+  background-color: #808080;
+  color: whitesmoke;
 }
 
 
@@ -119,5 +134,16 @@
 
 .project-title-item {
   flex: 1;
+  border-top: 1px dotted #FF9933;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.content {
+  border-top: #FF9933 dotted 1px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 

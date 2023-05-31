@@ -49,7 +49,7 @@ export default function Project({titles}) {
           <div key={project.id} className="Iproject">
             <div className="project-title-container">
               <div className="project-title-item">
-            <h3>Project Title:</h3>
+            <h3>Title:</h3>
             </div>
             <div className="project-title-item">
             <a id="title" href={project.url} target="_blank">
@@ -59,7 +59,7 @@ export default function Project({titles}) {
             </div>
             <div className="project-title-container">
               <div className="project-title-item">
-            <h3>Project Type:</h3>
+            <h3>Type:</h3>
             </div>
             <div className="project-title-item">
             <h2>{project.type.title}</h2>
@@ -67,10 +67,12 @@ export default function Project({titles}) {
             </div>
            {/*<div className="project-title-container">
               <div className="project-title-item">*/}
+              <div className="content">
             <h3>Project Content:</h3>
             {/*</div>
             <div className="project-title-item">*/}
             <div>{project.content}</div>
+            </div>
            {/*</div>
             </div>*/}
           </div>

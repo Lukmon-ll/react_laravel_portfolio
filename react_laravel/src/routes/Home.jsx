@@ -21,10 +21,10 @@ export default function Home() {
       <div className="container1">
       <div className="line1">
         <div id="home-summary">
-      <p>My name is Lukmon Lasisi, and I'm a web developer and an aspiring software developer with a passion for coding. With years of experience in this field, I've had the opportunity to work on a variety of exciting projects and collaborate with talented individuals from around the world.</p>
+      <p>Welcome to my portfolio website! I'm Lukmon Lasisi, a Web Developer with a passion for coding. This website serves as a showcase of my work, skills, and accomplishments.</p>
 
 <p>
-Throughout my career, I've developed a unique set of skills in team collaborations, and I'm always eager to take on new challenges and expand my knowledge. You can find list of my tech stack below</p>
+Throughout my career, I have had the privilege of working on various exciting projects that have allowed me to refine my craft and develop a diverse skill set. From Content Management System(CMS) Projects to Web Application Development Projects and Application Support, I have gained valuable experience and demonstrated my ability to work with various software development technologies as listed below.</p>
 </div>
 </div>
       <div className="line1">

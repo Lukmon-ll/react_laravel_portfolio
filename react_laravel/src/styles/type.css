@@ -1,3 +1,22 @@
 .project-type {
   text-align: center;
+  background-color: #FF9933;
+  padding: 10px;
 }
+
+#application-type {
+  font-size: xx-large;
+}
+
+.project-type-container {
+  display: flex;
+}
+
+.project-type-item {
+  flex: 1;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  margin: 10px;
+  border-radius: 10px;
+}
+

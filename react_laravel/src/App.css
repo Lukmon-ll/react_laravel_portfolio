@@ -1,7 +1,9 @@
 .App {
-  font-family: sans-serif;
-  margin-right: 5%;
-  margin-left: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+  
+  
 }
 
 .spacer-heading {
@@ -14,6 +16,7 @@ NavLink Link {
 
 a {
   text-decoration: none;
+  
 }
 
 a:hover {
@@ -21,3 +24,4 @@ a:hover {
   font-weight: bolder;
   
 }
+

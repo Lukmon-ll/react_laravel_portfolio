@@ -20,6 +20,14 @@ export default function Type() {
   }, [])
   return (
     <div className="project-type">
+      <div className="project-type-container">
+      <div className="project-type-item">
+        <p id="application-type">The <br /><br />
+        Different <br /> <br />
+        Project <br /> <br />
+        Types</p> 
+      </div>
+      <div className="project-type-item">
 {types.map((type) => (
           <div key={type.id} className="Itype">
             
@@ -31,6 +39,8 @@ export default function Type() {
             
           </div>
         ))}
+        </div>
+        </div>
 
     </div>
   );
