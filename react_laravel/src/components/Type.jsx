@@ -22,10 +22,9 @@ export default function Type() {
     <div className="project-type">
       <div className="project-type-container">
       <div className="project-type-item">
-        <p id="application-type">The <br /><br />
-        Different <br /> <br />
-        Project <br /> <br />
-        Types</p> 
+        <p id="application-type">Project <br /> Category
+        
+      </p> 
       </div>
       <div className="project-type-item">
 {types.map((type) => (

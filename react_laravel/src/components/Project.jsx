@@ -9,6 +9,7 @@ import image5 from "../assets/laravelcms.png"
 import image6 from "../assets/vanillaphpcms.png"
 import image7 from "../assets/vanillaphpportfolio.png"
 import image8 from "../assets/laravelportfolio.png"
+import image9 from "../assets/laravelcmsresize.png"
 
 
 export default function Project({titles}) {
@@ -30,15 +31,16 @@ export default function Project({titles}) {
 
   return(
     <div id="project-content">
+      <div id="CM">Contact Me</div>
       <div className="PSocialMedia">
       <SocialMedia />
-      <br /><br />
+      <br />
       </div>
       <div className="project-heading">
         
-     {/* <h2 id="project_head">
+     <h2 id="project_head">
         
-  <a href="https://webprojectslukmon.ca/api/projects" target="_blank">Projects</a> </h2>*/}
+  <a href="https://webprojectslukmon.ca/api/projects" target="_blank">Projects</a> </h2>
         
         
         </div>
@@ -48,6 +50,7 @@ export default function Project({titles}) {
         {projects.map((project) => (
           <div key={project.id} className="Iproject">
             <div className="project-title-container">
+              
               <div className="project-title-item">
             <h3>Title:</h3>
             </div>
@@ -64,6 +67,7 @@ export default function Project({titles}) {
             <div className="project-title-item">
             <h2>{project.type.title}</h2>
             </div>
+            
             </div>
            {/*<div className="project-title-container">
               <div className="project-title-item">*/}

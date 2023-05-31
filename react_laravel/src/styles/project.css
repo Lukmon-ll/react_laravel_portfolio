@@ -7,8 +7,28 @@
   
 }*/
 
+#project-content {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+#project_head {
+  text-align: center;
+  font-size: xx-large;
+  margin: 0px;
+}
+
 .project-heading {
+  text-align: center;
+}
+
+#CM {
   text-align: left;
+  font-weight: 200;
+  font-size: large;
+  margin: 5px;
+  margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 .PSocialMedia {
@@ -45,6 +65,8 @@
   margin-bottom: 10px;
   background-color: #808080;
   color: whitesmoke;
+  margin-left: 80px;
+  margin-right: 80px;
   
   /*color: whitesmoke;*/
   
@@ -77,6 +99,8 @@
   margin-bottom: 10px;
   background-color: #808080;
   color: whitesmoke;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 
@@ -84,6 +108,7 @@
   border: lightgray 1px solid;
   background-color: #CCCCCC;
   text-align: center;
+  border-radius: 10px;
   
 }
 
@@ -93,6 +118,7 @@
   width: 400px;
   margin: 20px;
   height: 150;
+  border-radius: 10px;
   
 }
 

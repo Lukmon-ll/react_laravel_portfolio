@@ -12,6 +12,8 @@ import aspnet from "../assets/aspnet.svg";
 import mysql from "../assets/mysql.svg";
 import mongodb from "../assets/mongodb.svg";
 import pug from "../assets/pug.png";
+import react from "../assets/react.svg";
+import mssql from "../assets/mssql.svg";
 
 export default function Home() {
   return(
@@ -61,6 +63,16 @@ Throughout my career, I have had the privilege of working on various exciting pr
 <figcaption>NodeJS</figcaption>
 </figure>
 <figure className="skill">
+<img src={react} alt="" />
+<figcaption>React</figcaption>
+</figure>
+</div>
+<div className="skills-container-2">
+<figure className="skill">
+<img src={mssql} alt="" />
+<figcaption>MS SQL Server</figcaption>
+</figure>
+<figure className="skill">
 <img src={pug} alt="" />
 <figcaption>PUG</figcaption>
 </figure>
@@ -76,6 +88,8 @@ Throughout my career, I have had the privilege of working on various exciting pr
 <img src={css} alt="" />
 <figcaption>CSS</figcaption>
 </figure>
+</div>
+
 
 
 
@@ -87,7 +101,7 @@ Throughout my career, I have had the privilege of working on various exciting pr
 
 
 
-</div>
+
 
       <div className="spacer"></div>
       <hr />

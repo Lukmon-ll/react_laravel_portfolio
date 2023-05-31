@@ -41,7 +41,20 @@
   
 }
 
+.skills-container-2 img {
+  width: 30px; 
+  height: auto;
+  
+  
+}
+
 .skills-container img:hover {
+  width: 80px; 
+  height: auto;
+  
+}
+
+.skills-container-2 img:hover {
   width: 80px; 
   height: auto;
   
@@ -66,9 +79,19 @@
   justify-content: space-evenly;
 }
 
+.skills-container-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .skills {
   /*display: inline-block;*/
   flex-grow: 1;
   flex-shrink: 1;
   
+}
+
+figcaption {
+  font-size: x-large;
+  font-weight: 200;
 }
