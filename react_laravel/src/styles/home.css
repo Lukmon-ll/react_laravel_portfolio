@@ -4,7 +4,7 @@
 
 #home-summary {
   border: 1px solid #CCCCCC;
-  
+  border-radius: 10px;
   background-color: #CCCCCC;
   padding: 10px;
 }
@@ -27,6 +27,7 @@
 .line1 img {
   width: 230px;
   height: auto;
+  border-radius: 10px;
   
 }
 
