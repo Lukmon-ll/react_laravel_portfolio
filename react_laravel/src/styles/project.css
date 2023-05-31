@@ -49,6 +49,8 @@
   
   margin-bottom: 10px;
   background-color: #CCCCCC;
+  margin-left: 100px;
+  margin-right: 100px;
   
   
 }
@@ -61,7 +63,6 @@
   padding-right: 10%;
   border: #CCCCCC 1px solid;
   border-radius: 20px;
-  
   margin-bottom: 10px;
   background-color: #808080;
   color: whitesmoke;
@@ -76,15 +77,15 @@
 /* apply styles to odd-numbered divs */
 .Iproject:nth-child(odd) {
   background-color: #CCCCCC;
-  
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10%;
   padding-right: 10%;
   border: #CCCCCC 1px solid;
   border-radius: 10px;
-  
   margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
   
 }
 
@@ -95,7 +96,6 @@
   padding-right: 10%;
   border: #CCCCCC 1px solid;
   border-radius: 20px;
-  
   margin-bottom: 10px;
   background-color: #808080;
   color: whitesmoke;
