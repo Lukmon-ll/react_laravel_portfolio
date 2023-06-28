@@ -36,11 +36,12 @@ Throughout my career, I have had the privilege of working on various exciting pr
       </figure>
       </div>
       </div>
-      <div className="spacer"></div>
+      
+      
       <div className="skills-container">
       <figure className="skill">
 <img src={mysql} alt="" />
-<figcaption>MySQL Database</figcaption>
+<figcaption>MySQL</figcaption>
 </figure>
 <figure className="skill">
 <img src={mongodb} alt="" />
@@ -67,10 +68,11 @@ Throughout my career, I have had the privilege of working on various exciting pr
 <figcaption>React</figcaption>
 </figure>
 </div>
+
 <div className="skills-container-2">
 <figure className="skill">
 <img src={mssql} alt="" />
-<figcaption>MS SQL Server</figcaption>
+<figcaption>MSSQL</figcaption>
 </figure>
 <figure className="skill">
 <img src={pug} alt="" />
@@ -103,6 +105,7 @@ Throughout my career, I have had the privilege of working on various exciting pr
 
 
 
+      <div className="spacer"></div>
       <div className="spacer"></div>
       <hr />
       <Project />

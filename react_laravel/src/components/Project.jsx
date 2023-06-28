@@ -85,22 +85,27 @@ export default function Project({titles}) {
       <div className="spacer"></div>
       <Type />
       <div className="spacer"></div>
+      <div className="spacer"></div>
       <div className="project-images">
       
-            <div>
+            <div className="project-image-container"> 
             <img src={image7} alt="" />
         
         <img src={image6} alt="" />
+        <img src={image8} alt="" />
             </div>
             <div>
-            <img src={image8} alt="" />
+            
+            
+            </div>
+            <div>
             <img src={image5} alt="" />
-            </div>
-            <div>
             <img src={image2} alt="Image to open trivia questions open API" />
             <img src={image3} alt="" />
             </div>
             <div>
+            <img src={image4} alt="" />
+            <img src={image4} alt="" />
             <img src={image4} alt="" />
             </div>
 

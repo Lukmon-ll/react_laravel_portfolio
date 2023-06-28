@@ -50,19 +50,19 @@
 }
 
 .skills-container img:hover {
-  width: 80px; 
+  width: 50px; 
   height: auto;
   
 }
 
 .skills-container-2 img:hover {
-  width: 80px; 
+  width: 50px; 
   height: auto;
   
 }
 .skill:hover {
   padding: 4px;
-  background-color: #FF9933;
+  background-color: #EEA47F;
   
 }
 
@@ -78,11 +78,14 @@
 .skills-container {
   display: flex;
   justify-content: space-evenly;
+  background-color: #00539C;
+  padding: 10px;
 }
 
 .skills-container-2 {
   display: flex;
   justify-content: space-evenly;
+  background-color: #00539C;
 }
 
 .skills {
@@ -95,4 +98,5 @@
 figcaption {
   font-size: large;
   font-weight: bolder;
+  color: white;
 }

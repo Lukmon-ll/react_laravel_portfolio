@@ -21,6 +21,7 @@ function App() {
       <Header />
       <hr />
       <div className="spacer-heading"></div>
+      <div className="spacer-heading"></div>
       
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,6 +29,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/education" element={<Education />} />
       </Routes>
+      <div className="spacer"></div>
       <div className="spacer"></div>
       <hr />
       <Footer />
