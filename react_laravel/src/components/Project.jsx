@@ -28,6 +28,8 @@ export default function Project({titles}) {
 
   }, [])
 
+  
+
 
   return(
     <div id="project-content">
