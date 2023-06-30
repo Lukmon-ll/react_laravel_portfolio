@@ -61,8 +61,8 @@
   
 }
 .skill:hover {
-  padding: 4px;
-  background-color: #EEA47F;
+  
+  text-decoration: underline;
   
 }
 
