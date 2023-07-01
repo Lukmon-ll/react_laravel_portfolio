@@ -34,6 +34,8 @@ export default function Project({titles}) {
   return(
     <div id="project-content">
       <div id="CM">Contact Me</div>
+      <div className="spacer"></div>
+      
       <div className="PSocialMedia">
       <SocialMedia />
       <br />
@@ -85,7 +87,12 @@ export default function Project({titles}) {
         ))}
       </div>
       <div className="spacer"></div>
+      <div className="spacer"></div>
+      <div className="spacer"></div>
+      <div className="spacer"></div>
       <Type />
+      <div className="spacer"></div>
+      <div className="spacer"></div>
       <div className="spacer"></div>
       <div className="spacer"></div>
       <div className="project-images">

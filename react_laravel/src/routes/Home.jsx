@@ -37,6 +37,10 @@ Throughout my career, I have had the privilege of working on various exciting pr
       </div>
       </div>
       
+      <div className="spacer"></div>
+      <div className="spacer"></div>
+      <div className="spacer"></div>
+      
       
       <div className="skills-container">
       <figure className="skill">
@@ -104,7 +108,7 @@ Throughout my career, I have had the privilege of working on various exciting pr
 
 
 
-
+<div className="spacer"></div>
       <div className="spacer"></div>
       <div className="spacer"></div>
       <hr />
