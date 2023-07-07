@@ -46,6 +46,7 @@ export default function Project({titles}) {
      <h2 id="project_head">
         
   <a href="https://webprojectslukmon.ca/api/projects" target="_blank">Projects</a> </h2>
+  <hr />
         
         
         </div>
