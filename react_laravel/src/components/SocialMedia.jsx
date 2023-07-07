@@ -11,7 +11,7 @@ export default function SocialMedia() {
     <li><a href="https://github.com/Lukmon-ll" target='_blank'>
         <FontAwesomeIcon icon={faGithub} />
       </a></li>
-    <li><a href="https://www.linkedin.com/in/lukmon-lasisi-ba265625b/" target='_blank'>
+    <li><a href="https://www.linkedin.com/in/lukmon-lasisi-aws-certified-ba265625b/" target='_blank'>
         <FontAwesomeIcon icon={faLinkedin} />
       </a></li>
     <li><a href="https://www.facebook.com/olasisilukmon" target='_blank'>
