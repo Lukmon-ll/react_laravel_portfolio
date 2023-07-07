@@ -10,6 +10,7 @@ import image6 from "../assets/vanillaphpcms.png"
 import image7 from "../assets/vanillaphpportfolio.png"
 import image8 from "../assets/laravelportfolio.png"
 import image9 from "../assets/laravelcmsresize.png"
+import image10 from "../assets/NaijaCA.png"
 
 
 export default function Project({titles}) {
@@ -115,7 +116,8 @@ export default function Project({titles}) {
             <div>
             <img src={image4} alt="" />
             <img src={image4} alt="" />
-            <img src={image4} alt="" />
+            
+            <img src={image10} alt="" />
             </div>
 
 
