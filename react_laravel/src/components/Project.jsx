@@ -88,6 +88,7 @@ export default function Project({titles}) {
           </div>
         ))}
       </div>
+      <hr />
       <div className="spacer"></div>
       <div className="spacer"></div>
       <div className="spacer"></div>
